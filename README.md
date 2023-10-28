@@ -75,6 +75,7 @@ Open a command prompt window an run the command
 java -version
 ```
 
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/a6e42723-6925-4273-a5a5-805bfe8a7015)
 
 ## Install compression software
 
