@@ -133,5 +133,14 @@ After downloading the compressed file "Microsoft.Spark.Worker.netcoreapp3.1.win-
 
 ![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/dd26111d-3f64-4d9e-b3f8-8b1fade7fec3)
 
+## 7. Install WinUtils (Windows only)
 
+.NET for Apache Spark requires WinUtils to be installed alongside Apache Spark. 
 
+Download winutils.exe
+
+https://github.com/steveloughran/winutils/tree/master
+
+Then, copy WinUtils into C:\bin\spark-3.0.1-bin-hadoop2.7\bin
+
+## 8. 
