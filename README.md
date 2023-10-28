@@ -239,3 +239,15 @@ This .NET app counts words with Apache Spark
 Save the changes and close the file.
 ```
 
+## 12. Run your .NET for Apache Spark app
+
+Run the following command to build your application:
+
+```
+dotnet build
+```
+
+Navigate to your build output directory and use the spark-submit command to submit your application to run on Apache Spark. 
+
+Make sure to replace <version> with the version of your .NET worker and <path-of-input.txt> with the path of your input.txt file is stored.
+
