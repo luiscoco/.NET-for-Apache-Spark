@@ -88,3 +88,8 @@ Use an extraction program, like 7-Zip or WinZip, to extract the file.
 Download and install Apache Spark. You'll need to select from version 2.3.* or 2.4.0, 2.4.1, 2.4.3, 2.4.4, 2.4.5, 2.4.6, 2.4.7, 3.0.0, 3.0.1, 3.0.2, 3.1.1, 3.1.2, 3.2.0, or 3.2.1 
 
 (.NET for Apache Spark is not compatible with other versions of Apache Spark).
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/407568b5-0ef6-48e1-a9e1-61821ef0f93d)
+
+
+
