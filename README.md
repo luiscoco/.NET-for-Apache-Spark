@@ -91,5 +91,30 @@ Download and install Apache Spark. You'll need to select from version 2.3.* or 2
 
 ![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/407568b5-0ef6-48e1-a9e1-61821ef0f93d)
 
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/d72ed255-d1e6-485a-9b44-02488eb65573)
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/2ec5f1fb-4f97-43b2-a9ca-6860c2df1a47)
+
+After downloading the spark-3.2.0-bin-hadoop2.7.tgz file unZip it and place it in the following path: C:\bin\spark-3.2.0-bin-hadoop2.7
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/66c94d89-1d08-41a3-84dd-4fd843048abf)
+
+Then we set the SPARK_HOME and the HADOOP_HOME environmental variables and we add them to the PATH variable
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/a8e85edf-3c95-49e4-a0f4-d3a448df6b6f)
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/f28317de-9a18-45dd-bc20-d847ea91ef5c)
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/50650f5e-9ea1-4a8e-b51f-5dce79a0b3ca)
+
+Now we restart our computer.
+
+We open a new command prompt and run the following command to confirm Spark is installed fine
+
+```
+spark-submit --verion
+```
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/c17e6941-1fe2-49be-b25e-71622bf0ed13)
 
 
