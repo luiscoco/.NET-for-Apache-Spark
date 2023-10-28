@@ -265,3 +265,7 @@ More? --master local ^
 More? microsoft-spark-3-2_2.12-2.1.1.jar ^
 More? dotnet MySparkApp.dll C:\MySparkApp\input.txt
 ```
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/11511ad2-0086-4f7f-b430-e17b6f9b62eb)
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/281833aa-eb99-4da5-a7df-2706ff2e560d)
