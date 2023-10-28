@@ -258,4 +258,10 @@ Navigate to your build output directory and use the spark-submit command to subm
 
 Make sure to replace <version> with the version of your .NET worker and <path-of-input.txt> with the path of your input.txt file is stored.
 
-
+```
+C:\MySparkApp\bin\Debug\net7.0>spark-submit ^
+More? --class org.apache.spark.deploy.dotnet.DotnetRunner ^
+More? --master local ^
+More? microsoft-spark-3-2_2.12-2.1.1.jar ^
+More? dotnet MySparkApp.dll C:\MySparkApp\input.txt
+```
