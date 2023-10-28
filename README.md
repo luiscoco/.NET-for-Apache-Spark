@@ -28,7 +28,7 @@ This means you can use .NET for Apache Spark anywhere you write .NET code.
 
 https://learn.microsoft.com/es-es/previous-versions/dotnet/spark/tutorials/get-started?tabs=windows
 
-## Install .NET
+## 1. Install .NET
 
 To start building .NET apps, you need to download and install the .NET SDK (Software Development Kit).
 
@@ -47,7 +47,7 @@ dotnet --version
 
 But I have .NET 7 installed in my laptop and .NET for Apache Spark is working fine.
 
-## Install Java 8 (JDK)
+## 2. Install Java 8 (JDK)
 
 Install Java 8.1 for Windows and macOS, or OpenJDK 8 for Ubuntu.
 
@@ -77,13 +77,13 @@ java -version
 
 ![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/a6e42723-6925-4273-a5a5-805bfe8a7015)
 
-## Install compression software
+## 3. Install compression software
 
 Apache Spark is downloaded as a compressed .tgz file. 
 
 Use an extraction program, like 7-Zip or WinZip, to extract the file.
 
-## Install Apache Spark
+## 4. Install Apache Spark
 
 Download and install Apache Spark. You'll need to select from version 2.3.* or 2.4.0, 2.4.1, 2.4.3, 2.4.4, 2.4.5, 2.4.6, 2.4.7, 3.0.0, 3.0.1, 3.0.2, 3.1.1, 3.1.2, 3.2.0, or 3.2.1 
 
@@ -116,5 +116,19 @@ spark-submit --verion
 ```
 
 ![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/c17e6941-1fe2-49be-b25e-71622bf0ed13)
+
+## 5. Install Microsoft.Spark.Worker
+
+Download the Microsoft.Spark.Worker release from the .NET for Apache Spark GitHub. 
+
+For example if you're on a Windows machine and plan to use .NET Core, download the Windows x64 netcoreapp3.1 release.
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/98225162-39db-47bf-90be-850983f4ee27)
+
+After downloading the compressed file "Microsoft.Spark.Worker.netcoreapp3.1.win-x64-2.1.1" place it in C:\bin\ 
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/fda049e2-c7c5-4310-9cbd-80ad3de2e6d5)
+
+
 
 
