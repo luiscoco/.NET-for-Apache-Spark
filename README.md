@@ -226,4 +226,16 @@ It's not until the **Show** method is called to display the contents of the word
 
 Once you no longer need the Spark session, use the **Stop** method to stop your session.
 
+## 11. Create data file
+
+Your app processes a file containing lines of text. 
+
+Create a file called **input.txt** file in your **MySparkApp directory**, containing the following text:
+
+```
+Hello World
+This .NET app uses .NET for Apache Spark
+This .NET app counts words with Apache Spark
+Save the changes and close the file.
+```
 
