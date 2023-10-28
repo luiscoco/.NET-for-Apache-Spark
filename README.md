@@ -241,7 +241,6 @@ Create a file called **input.txt** file in your **MySparkApp directory**, contai
 Hello World
 This .NET app uses .NET for Apache Spark
 This .NET app counts words with Apache Spark
-Save the changes and close the file.
 ```
 
 ## 12. Run your .NET for Apache Spark app
