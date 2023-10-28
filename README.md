@@ -23,6 +23,10 @@ The .NET bindings for Spark are written on the Spark interop layer, designed to 
 This means you can use .NET for Apache Spark anywhere you write .NET code.
 
 ![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/ff57a80e-1aa2-42ef-a994-890e77963f37)
+ 
+# .NET for Apache Spark C# Samples github repository
+
+https://github.com/dotnet/spark/tree/main/examples/Microsoft.Spark.CSharp.Examples
 
 # Tutorial: Get started with .NET for Apache Spark 
 
