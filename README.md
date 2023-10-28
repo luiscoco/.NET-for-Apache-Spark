@@ -43,6 +43,8 @@ dotnet --version
 **IMPORTANT NOTE**
 .NET for Apache Spark targets an out-of-support version of .NET (.NET Core 3.1).
 
+But I have .NET 7 installed in my laptop and .NET for Apache Spark is working fine.
+
 ## Install Java 8 (JDK)
 
 Install Java 8.1 for Windows and macOS, or OpenJDK 8 for Ubuntu.
