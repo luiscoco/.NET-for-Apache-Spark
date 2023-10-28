@@ -1,5 +1,3 @@
-# MySparkApp
-
 # .NET for Apache Spark
 
 ## What is Apache Spark?
