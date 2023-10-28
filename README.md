@@ -55,6 +55,27 @@ Select the appropriate version for your operating system. For example, select **
 
 https://www.oracle.com/java/technologies/downloads/#java8-windows
 
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/8859949c-8411-4b11-8bf4-4ffe17f16e53)
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/e1b1330d-90c8-4afe-85a7-e0b656960dc3)
+
+Now set the environmental variable JAVA_HOME poiting the bin folder in the Java installation
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/1fcb4714-105e-4e09-9daa-4501e181eb6b)
+
+And add the JAVA_HOME to the PATH variable
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/1b2e2313-23da-4f1d-90f3-93c13fe69958)
+
+Restart you laptop and check the Java 8 (JDK) installation is fine
+
+Open a command prompt window an run the command
+
+```
+java -version
+```
+
+
 ## Install compression software
 
 Apache Spark is downloaded as a compressed .tgz file. 
