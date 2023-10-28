@@ -170,4 +170,48 @@ In your command prompt or terminal, run the following command:
 dotnet add package Microsoft.Spark
 ```
 
+## 10. Write your app
 
+Open Program.cs in Visual Studio Code, or any text editor, and replace all of the code with the following:
+
+```csharp
+using Microsoft.Spark.Sql;
+using static Microsoft.Spark.Sql.Functions;
+
+namespace MySparkApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Create Spark session
+            SparkSession spark =
+                SparkSession
+                    .Builder()
+                    .AppName("word_count_sample")
+                    .GetOrCreate();
+
+            // Create initial DataFrame
+            string filePath = args[0];
+            DataFrame dataFrame = spark.Read().Text(filePath);
+
+            //Count words
+            DataFrame words =
+                dataFrame
+                    .Select(Split(Col("value")," ").Alias("words"))
+                    .Select(Explode(Col("words")).Alias("word"))
+                    .GroupBy("word")
+                    .Count()
+                    .OrderBy(Col("count").Desc());
+
+            // Display results
+            words.Show();
+
+            // Stop Spark session
+            spark.Stop();
+        }
+    }
+}
+```
+
+SparkSession is the entrypoint of Apache Spark applications, which manages the context and information of your application. Using the Text method, the text data from the file specified by the filePath is read into a DataFrame. A DataFrame is a way of organizing data into a set of named columns. Then, a series of transformations is applied to split the sentences in the file, group each of the words, count them and order them in descending order. The result of these operations is stored in another DataFrame. Note that at this point, no operations have taken place because .NET for Apache Spark lazily evaluates the data. It's not until the Show method is called to display the contents of the words transformed DataFrame to the console that the operations defined in the lines above execute. Once you no longer need the Spark session, use the Stop method to stop your session.
