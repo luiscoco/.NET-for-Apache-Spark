@@ -252,7 +252,10 @@ Run the following command to build your application:
 dotnet build
 ```
 
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/f9ef7262-aa4c-4374-975e-228a3b6723c0)
+
 Navigate to your build output directory and use the spark-submit command to submit your application to run on Apache Spark. 
 
 Make sure to replace <version> with the version of your .NET worker and <path-of-input.txt> with the path of your input.txt file is stored.
+
 
