@@ -2,9 +2,7 @@
 
 ## What is Apache Spark?
 
-https://dotnet.microsoft.com/en-us/apps/data/spark
-
-https://github.com/dotnet/spark
+https://spark.apache.org/
 
 Apache Spark™ is a general-purpose **distributed processing** engine for analytics over large data sets—typically, terabytes or petabytes of data. 
 
@@ -13,6 +11,10 @@ Apache Spark can be used for processing batches of data, real-time streams, mach
 Processing tasks are distributed over a cluster of nodes, and data is cached in-memory, to reduce computation time.
 
 ## What is .NET For Apache Spark?
+
+https://dotnet.microsoft.com/en-us/apps/data/spark
+
+https://github.com/dotnet/spark
 
 The .NET bindings for Spark are written on the Spark interop layer, designed to provide high performance bindings to multiple languages.
 
