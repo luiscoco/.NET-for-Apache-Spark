@@ -173,7 +173,7 @@ In your command prompt or terminal, run the following command:
 dotnet add package Microsoft.Spark
 ```
 
-![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/a5e2a0ec-ef2f-4a21-8247-2a871b95ca44)
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/2485c9e2-5bae-40a3-b0b5-79a7fab0e535)
 
 ## 10. Write your app
 
