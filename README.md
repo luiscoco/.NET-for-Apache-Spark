@@ -265,8 +265,15 @@ More? --master local ^
 More? microsoft-spark-3-2_2.12-2.1.1.jar ^
 More? dotnet MySparkApp.dll C:\MySparkApp\input.txt
 ```
+**spark-submit** is a command used to submit Spark applications to a cluster
 
-In the last line we run the "dotnet" command to run the "MySparkApp.dll" application, and we send as argument the text file path "C:\MySparkApp\input.txt"
+**org.apache.spark.deploy.dotnet** package. This class is responsible for **running .NET Spark applications**
+
+**--master local** specifies the **Spark master URL**. In this case, it's set to "local," which means the Spark application will run locally on the machine. It won't be submitted to a Spark cluster.
+
+
+
+In the last line we run the **dotnet** command to run the **MySparkApp.dll** application, and we send as argument the text file path **C:\MySparkApp\input.txt**
 
 ![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/11511ad2-0086-4f7f-b430-e17b6f9b62eb)
 
