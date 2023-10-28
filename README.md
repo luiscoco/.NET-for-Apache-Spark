@@ -129,7 +129,7 @@ After downloading the compressed file "Microsoft.Spark.Worker.netcoreapp3.1.win-
 
 ![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/fda049e2-c7c5-4310-9cbd-80ad3de2e6d5)
 
-We have to create a new environmental variable DOTNET_WORKER_DIR
+## 6. Create a new environmental variable DOTNET_WORKER_DIR to store the Microsoft.Spark.Worker installation folder
 
 ![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/dd26111d-3f64-4d9e-b3f8-8b1fade7fec3)
 
