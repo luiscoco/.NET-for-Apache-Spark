@@ -214,4 +214,16 @@ namespace MySparkApp
 }
 ```
 
-SparkSession is the entrypoint of Apache Spark applications, which manages the context and information of your application. Using the Text method, the text data from the file specified by the filePath is read into a DataFrame. A DataFrame is a way of organizing data into a set of named columns. Then, a series of transformations is applied to split the sentences in the file, group each of the words, count them and order them in descending order. The result of these operations is stored in another DataFrame. Note that at this point, no operations have taken place because .NET for Apache Spark lazily evaluates the data. It's not until the Show method is called to display the contents of the words transformed DataFrame to the console that the operations defined in the lines above execute. Once you no longer need the Spark session, use the Stop method to stop your session.
+**SparkSession** is the entrypoint of Apache Spark applications, which manages the context and information of your application. 
+
+Using the **Text method**, the text data from the file specified by the filePath is read into a DataFrame. 
+
+A **DataFrame** is a way of organizing data into a set of named columns. Then, a series of **transformations** is applied to split the sentences in the file, group each of the words, count them and order them in descending order. The result of these operations is stored in another DataFrame. 
+
+Note that at this point, no operations have taken place because .NET for Apache Spark **lazily evaluates the data**. 
+
+It's not until the **Show** method is called to display the contents of the words transformed DataFrame to the console that the **operations** defined in the lines above **execute**.
+
+Once you no longer need the Spark session, use the **Stop** method to stop your session.
+
+
