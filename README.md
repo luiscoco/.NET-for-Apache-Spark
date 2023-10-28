@@ -271,9 +271,9 @@ More? dotnet MySparkApp.dll C:\MySparkApp\input.txt
 
 **--master local** specifies the **Spark master URL**. In this case, it's set to "local," which means the Spark application will run locally on the machine. It won't be submitted to a Spark cluster.
 
+**microsoft-spark-3-2_2.12-2.1.1.jar** specifies the JAR file containing the Microsoft Spark assembly. This JAR file is required for running .NET Spark applications. The version numbers and other details in the filename may vary based on your specific setup.
 
-
-In the last line we run the **dotnet** command to run the **MySparkApp.dll** application, and we send as argument the text file path **C:\MySparkApp\input.txt**
+In the last line we run the **dotnet** command to run the **MySparkApp.dll** assembly, and we send as argument the text file path **C:\MySparkApp\input.txt**
 
 ![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/11511ad2-0086-4f7f-b430-e17b6f9b62eb)
 
