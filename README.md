@@ -143,4 +143,31 @@ https://github.com/steveloughran/winutils/tree/master
 
 Then, copy WinUtils into C:\bin\spark-3.0.1-bin-hadoop2.7\bin
 
-## 8. 
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/cb2db9b6-caf4-4409-b969-d99c72cae2e9)
+
+## 8. Create a .NET console application
+
+Open a command prompt window and run the following command to create a console .NET application
+
+```
+dotnet new console -o MySparkApp
+cd MySparkApp
+```
+The dotnet command creates a new application of type console for you. 
+
+The -o parameter creates a directory named MySparkApp where your app is stored and populates it with the required files. 
+
+The cd MySparkApp command changes the directory to the app directory you created.
+
+
+## 9. Install NuGet package
+
+To use .NET for Apache Spark in an app, install the Microsoft.Spark package. 
+
+In your command prompt or terminal, run the following command:
+
+```
+dotnet add package Microsoft.Spark
+```
+
+
