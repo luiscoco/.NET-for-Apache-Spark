@@ -159,6 +159,9 @@ The -o parameter creates a directory named MySparkApp where your app is stored a
 
 The cd MySparkApp command changes the directory to the app directory you created.
 
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/d5cd5cfc-875d-49d5-b3e0-38e98dc837d9)
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark/assets/32194879/7041109c-3a52-4cf6-9f90-6eb182176d7e)
 
 ## 9. Install NuGet package
 
