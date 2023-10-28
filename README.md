@@ -28,6 +28,20 @@ This means you can use .NET for Apache Spark anywhere you write .NET code.
 
 https://github.com/dotnet/spark/tree/main/examples/Microsoft.Spark.CSharp.Examples
 
+There are three main types of samples/apps in the repo:
+
+**SQL/Batch:** .NET for Apache Spark apps that analyze batch data, or data that has already been produced/stored.
+
+https://github.com/dotnet/spark/tree/main/examples/Microsoft.Spark.CSharp.Examples/Sql/Batch
+
+**SQL/Streaming:** .NET for Apache Spark apps that analyze structured streaming data, or data that is currently being produced live.
+
+https://github.com/dotnet/spark/tree/main/examples/Microsoft.Spark.CSharp.Examples/Sql/Streaming
+
+**Machine Learning:** .NET for Apache Spark apps infused with Machine Learning models based on ML.NET, an open source and cross-platform machine learning framework.
+
+https://github.com/dotnet/spark/tree/main/examples/Microsoft.Spark.CSharp.Examples/MachineLearning
+
 # Tutorial: Get started with .NET for Apache Spark 
 
 https://learn.microsoft.com/es-es/previous-versions/dotnet/spark/tutorials/get-started?tabs=windows
